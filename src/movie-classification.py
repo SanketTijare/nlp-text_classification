@@ -112,7 +112,7 @@ def rate_movie(string, model=model, vec=count_vec):
     comment = [string]
     vector = vec.transform(comment).astype('float64')
     out = model.predict(vector)
-    if out <= 0.55:
+    if out <= 0.5:
         rat = "NEGATIVE"
     else:
         rat = 'POSITIVE'
