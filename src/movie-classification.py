@@ -103,7 +103,7 @@ def evaluate_model(x, y, model, threshold=0.5):
     print("F1-Score          : {:}".format(f1_score(output, y_validate)))
 
 
-model = train_model(x=x_train_count, y=train_y_lgb)
+model = train_model(x=x_train_count, y=train_y_lgb, num_rounds=100)
 
 evaluate_model(x=x_valid_count, y=valid_y, model=model)
 

@@ -1,12 +1,17 @@
+Text Classification
+-----
+
 This is a simple text classification problem tried to solve using NLP.
 
 Problem-Statment
+-----
 
 To classify the movie reviews by users into 2 classes 
 	a. Positive 
 	b. Negative
 
 Dataset-Overview
+-----
 
 Data set used is the "Large Movie Review Dataset v1.0", and can be downloaded from 'https://ai.stanford.edu/~amaas/data/sentiment/'
 
@@ -28,6 +33,7 @@ omitted for this portion of the dataset.
 
 
 Basic-steps
+-----
 
 Below are the few basic high level steps that are followed in the moview classification.
 
