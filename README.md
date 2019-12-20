@@ -3,14 +3,14 @@ Text Classification
 
 This is a simple text classification problem tried to solve using NLP.
 
-Problem-Statment
+## Problem-Statment
 -----
 
 To classify the movie reviews by users into 2 classes 
 	a. Positive 
 	b. Negative
 
-Dataset-Overview
+## Dataset-Overview
 -----
 
 Data set used is the "Large Movie Review Dataset v1.0", and can be downloaded from 'https://ai.stanford.edu/~amaas/data/sentiment/'
@@ -32,15 +32,14 @@ example with unique id 200 and star rating 8/10 from IMDb. The
 omitted for this portion of the dataset.
 
 
-Basic-steps
+## Steps
 -----
 
 Below are the few basic high level steps that are followed in the moview classification.
-
-	1. Load the data(corpus, both positive and negative) and converted it to a pandas dataframe
-	2. Split data into Train and Test
-	3. Use any NLP technique (TF-IDF or word counter to convert text to numbers)
-	4. Train any Classifier 
-	5. Evaluate the Classifier
+- Load the data(corpus, both positive and negative) and converted it to a pandas dataframe
+- Split data into Train and Test
+- Use any NLP technique (TF-IDF or word counter to convert text to numbers)
+- Train any Classifier 
+- Evaluate the Classifier
 
 
